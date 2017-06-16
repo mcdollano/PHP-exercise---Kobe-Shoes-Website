@@ -1,0 +1,140 @@
+body {
+	/*margin: 0 auto;*/
+	font-family: 'Assistant', sans-serif;
+	position: relative;
+}
+
+.affix {
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+body  img {
+	width: 220px;
+	height: 180px;
+	
+}
+
+.main-container {
+	position: absolute;
+	left: 20%;
+	text-align: center;
+}
+
+
+header {
+	background: url(../img/kobe-banner3.png);
+	background-size: cover;
+	background-position: center;
+	/*text-align: center;*/
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.heading {
+	text-align: center;
+}
+
+.item-wrapper {
+	border: 3px solid black;
+	width: 100%;
+}
+
+.navbar-header {
+	position: relative;
+	z-index: 1000;
+}
+
+.navbar-brand {
+	padding-left: 10%;
+	padding-top: 0;
+	margin-left: 20px;
+}
+
+.navbar-brand img {
+	width: 80px;
+	height: 60px;
+}
+
+.navbar-one {
+  border-radius: 0;
+  background: white;
+  margin-left: 0;
+
+}
+
+.navbar-one ul li a {
+	font-size: 18px;
+	color: black;
+	text-align: center;
+
+}
+
+.navbar-one ul li a:hover {
+	font-size: 1.5em;
+	color: white;
+	background-color: black;
+	transition: 0.5s;
+
+
+}
+
+.navbar ul li a {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+button .icon-bar {
+	background-color: black;
+}
+
+	/*-----END OF NAV-BAR-----*/
+	/*-----BANNER-IMAGE -----*/
+
+
+.container {
+
+	width: 100%;
+	padding: 0;
+	margin-right: 0%;
+	margin-left: 0%;
+}
+
+.banner-caption {
+	padding: 20%;
+	color: white;
+	/*line-height: 100px;*/
+
+}
+
+
+
+
+.overlay {
+}
+
+footer {
+	background-color: black;
+	font-size: 1em;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 30px;
+	color: white;
+	z-index: -1;
+}
+
+footer img {
+	width: 30px;
+	padding: 5px;
+	float: right;
+}
+
+.overlay {
+}
+
+footer img:hover {
+	animation: bounce 1s;
+}
+
